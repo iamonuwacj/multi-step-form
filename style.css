@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* colgroup */
+
+:root {
+    --Marine_blue: hsl(213, 96%, 18%);
+    --Purplish_blue: hsl(243, 100%, 62%);
+    --Pastel_blue: hsl(228, 100%, 84%);
+    --Light_blue: hsl(206, 94%, 87%);
+    --Strawberry_red: hsl(354, 84%, 57%);
+
+    /* neutral colors */
+    --coolGray: hsl(231, 11%, 63%);
+    --lightGray: hsl(229, 24%, 87%);
+    --magnolia: hsl(217, 100%, 97%);
+    --alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%)
+}
+
+#root {
+    background-color: var(--lightGray);
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: var(--coolGray);
+}
+
+h2 {
+    color: var(--Marine_blue);
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 13px;
+    gap: 10%;
+    border-radius: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-image: url("./assets/images/bg-sidebar-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    border-radius: 7px;
+    padding: 30px 40px;
+}
+
+.sidebar-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 10%;
+    margin-bottom: 30px;
+    height: 3.5vh;
+}
+
+.num {
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: var(--Light_blue);
+
+}
+
+.step1 {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    height: 54vh;
+}
+
+.info {
+    color: var(--White);
+}
+
+.info span {
+    color: var(--coolGray);
+}
+
+.header {
+    width: 100%;
+}
+
+.header h2 {
+    padding: 0 10px;
+}
+
+.header p {
+    padding: 10px;
+}
+
+.step1_form {
+    width: 100%;
+    padding: 10px 0 10px;
+}
+
+.inp-field {
+    padding: 10px 10px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    background-color: aqua;
+    gap: 10%;
+    justify-content: space-between;
+}
+
+.inp-field label {
+    color: var(--Marine_blue);
+    width: 40%;
+}
+
+.inp-field p {
+    width: 50%;
+    color: var(--Strawberry_red);
+    text-align: center;
+}
+
+.inp-field input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 86%;
+    margin-top: 5px;
+    border: 2px solid var(--lightGray);
+}
+
+
+.btn-group {
+    padding: 50px 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn-next {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--Marine_blue);
+    color: var(--White);
+}
+
+
+/* step 2  */
+
+.step2 {
+    height: 54vh;
+    padding: 20px;
+    width: 50%;
+    margin-left: -25px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
+    padding: 20px 10px;
+}
+
+.col {
+    border: 2px solid var(--lightGray);
+    width: 33%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col:hover {
+    border: 2px solid var(--Pastel_blue);
+}
+
+.icon-box {
+    padding: 10px 0;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.icon-box img {
+    width: 100%;
+}
+
+.pay_now {
+    background-color: var(--alabaster);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.back {
+    color: var(--coolGray);
+    border: none;
+    background-color: transparent;
+}
+
+.back:hover {
+    color: var(--Marine_blue);
+}
+
+.radios {
+    background-color: var(--Marine_blue);
+    display: flex;
+    padding: 4px 5px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="radio"]{
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    vertical-align: top;
+    /* margin: calc(0.75em - 11px) 0.25rem 0 0; */
+    /* border: 2px solid #ddd; */
+    border-radius: 50px;
+    background: var(--Marine_blue) no-repeat center center;
+    transition: 0.7s ease;
+}
+
+input[type="radio"]:checked {
+    background-color: white;
+}
+
