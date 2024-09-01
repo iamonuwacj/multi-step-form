@@ -259,6 +259,7 @@ input[type="radio"]:checked {
 .step3 {
     width: 60%;
     height: 54vh;
+    display: none;
 }
 
 .box {
@@ -303,3 +304,77 @@ input[type="radio"]:checked {
     padding: 20px 0;
     margin-top: 70px;
 }
+
+
+/* step 4 */
+
+.step4 {
+    height: 54vh;
+}
+
+.arcade-box {
+    background-color: var(--alabaster);
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 20px 20px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.arcade {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px;
+    align-items: center;
+    margin-bottom: 2px solid var(--Light_blue);
+}
+
+.arcade h3 a {
+    color: var(--coolGray);
+}
+
+.arcade p b {
+    color: var(--Marine_blue);
+}
+
+.arcade-details {
+    padding: 10px 0;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.total p b {
+    color: var(--Purplish_blue);
+}
+
+.submit-btn {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm {
+    background-color: var(--Purplish_blue);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: var(--White);
+    border: none;
+    margin-right: -30px;
+}
+
+.unit-price {
+    color: var(--Marine_blue);
+}
+
+
