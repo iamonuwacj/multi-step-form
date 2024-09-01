@@ -310,6 +310,7 @@ input[type="radio"]:checked {
 
 .step4 {
     height: 54vh;
+    display: none;
 }
 
 .arcade-box {
@@ -378,3 +379,30 @@ input[type="radio"]:checked {
 }
 
 
+/* step 5 */
+
+.step5 {
+    height: 54vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.icon-container {
+    width: 20%;
+    padding: 0 0 20px;
+}
+
+.icon-container img {
+    width: 100%;
+}
+
+.step5 h2 {
+    padding-bottom: 20px;
+}
+
+.step5 p {
+    text-align: center;
+}
