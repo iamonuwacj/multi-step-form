@@ -86,6 +86,7 @@ h2 {
     flex-direction: column;
     width: 57%;
     height: 54vh;
+    display: none;
 }
 
 .info {
