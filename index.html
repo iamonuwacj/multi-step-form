@@ -11,7 +11,7 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; background-color: rgba(128, 128, 128, 0.19); }
     .attribution a { color: hsl(228, 45%, 44%); }
     </style>
 </head>
@@ -81,6 +81,10 @@
                     </div>
                 </form>
             </div>
+
+            <!-- <div class="btn-group btn-mobile">
+                <button class="btn-next">Next Step</button>
+            </div> -->
 
 
             <!-- Step 2 -->
@@ -238,6 +242,9 @@
                         <button class="btn-next" id="step3-next">Next Step</button>
                     </div>
                 </form>
+
+
+
             </div>
 
             <!-- step4 -->
@@ -248,6 +255,42 @@
                 </div>
 
                 <section id="arcade">
+                    <div class="arcade-box">
+                        <div class="arcade">
+                            <h3><span class="itemName"></span><br> <small><a href="" id="change">Change</a></small></h3>
+                            <p><b id="item-price"></b></p>
+                        </div>
+
+                        <hr>
+                    
+                        <div class="arcade arcade-details" id="online">
+                            <p>Online service</p>
+                            <p class="unit-price">+$1/mo</p>
+                        </div>
+                        
+                        <div class="arcade arcade-details" id="larger">
+                            <p>Larger storage</p>
+                            <p class="unit-price">+$2/mo</p>
+                        </div>
+
+                        <div class="arcade arcade-details" id="customise">
+                            <p>Customizable profile</p>
+                            <p class="unit-price">+$2/mo</p>
+                        </div>
+                    </div>
+
+                    <div class="total">
+                        <p>Total (per month)</p>
+                        <p><b class="total_price">+$12/mo</b></p>
+                    </div>
+
+                    <div class="submit-btn">
+                        <button class="back" id="step4-back">Go Back</button>
+                        <button class="confirm">Confirm</button>
+                    </div>
+                </section>
+
+                <section id="arcade-year">
                     <div class="arcade-box">
                         <div class="arcade">
                             <h3><span class="itemName"></span><br> <small><a href="" id="change">Change</a></small></h3>

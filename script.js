@@ -19,6 +19,7 @@ let check = document.querySelectorAll(".check-inp")
 
 
 let change = document.getElementById("change")
+let arcadeYear = document.getElementById("arcade-year")
 
 let step1 = document.getElementById("step1")
 let step2 = document.getElementById("step2")
@@ -85,6 +86,7 @@ next.addEventListener("click", (e) => {
         step1.style.display = "none"
         step2.style.display = "block"
         num2.style.color = "black"
+        num1.style.color = "white" // style for the numbering system
         num1.style.backgroundColor = "transparent" // set the background color of the nums
         num2.style.backgroundColor = "hsl(206, 94%, 87%)" // set the background color of the nums
         selectFunction()
@@ -126,7 +128,7 @@ step2Next.addEventListener("click", (e) => {
     num2.style.backgroundColor = "transparent" // set the background color of the nums
     num3.style.backgroundColor = "hsl(206, 94%, 87%)"
     num3.style.color = "black"
-    alert(selected)
+    num2.style.color = "white"
     alert(selectedContent, selectedValue)
     total += selectedValue
 })
@@ -138,12 +140,13 @@ step3Next.addEventListener("click", (e) => {
     num1.style.backgroundColor = "transparent" // set the background color of the nums
     num3.style.backgroundColor = "transparent" // set the background color of the nums
     num4.style.color = "black"
+    num3.style.color = "white"
     num4.style.backgroundColor = "hsl(206, 94%, 87%)"
     itemPrice.textContent = `$${selectedValue}/mo`
-    itemName.textContent = `${selectedContent}`
-    
+    itemName.textContent = `${selectedContent} (monthly)`
     SortCheckBox()
     totalPrice.textContent = `+$${total}/mo`
+    
 })
 
 step2Back.addEventListener("click", (e) => {
@@ -273,7 +276,6 @@ confirm.addEventListener("click", (e) => {
     alert(total)
 })
 
-priceList = [1, 1, 2]
 
 function SortCheckBox(){
     let checkedList = []
