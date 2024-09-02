@@ -72,21 +72,26 @@ h2 {
 .num {
     width: 10%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--Light_blue);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2px;
-    background-color: var(--Light_blue);
-
+    color: var(--White);
+    /* background-color: var(--Light_blue); */
 }
+
+/* #num1 {
+    background-color: var(--Light_blue);
+} */
+
 
 .step1 {
     display: flex;
     flex-direction: column;
     width: 57%;
     height: 54vh;
-    display: none;
+    display: flex;
 }
 
 .info {
@@ -171,7 +176,7 @@ h2 {
 }
 
 
-.row {
+.row-monthly {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,11 +185,33 @@ h2 {
     padding: 20px 10px;
 }
 
+.row-yearly {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
+    padding: 20px 10px;
+}
+
+.free {
+    color: var(--Marine_blue);
+}
+
 .col {
     border: 2px solid var(--lightGray);
     width: 33%;
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.col-year h4 {
+    padding: 5px 0;
+}
+
+.col-year p {
+    padding: 5px 0;
 }
 
 .col:hover {
@@ -219,6 +246,18 @@ h2 {
     align-items: center;
     margin-left: 10px;
     width: 100%;
+}
+
+#customise {
+    display: none;
+}
+
+#larger{
+    display: none;
+}
+
+#online {
+    display: none;
 }
 
 .back {
