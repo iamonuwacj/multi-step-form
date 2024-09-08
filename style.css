@@ -92,7 +92,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
+    padding: 3%;
     color: var(--White);
 }
 
@@ -506,7 +506,7 @@ input[type="radio"]:checked {
 
     .num {
         width: 60%;
-        padding: 9px 12px;
+        padding: 22% 15%;
         margin-bottom: 60px;
     }
 
@@ -521,28 +521,6 @@ input[type="radio"]:checked {
         padding-top: 40px;
         border-radius: 10px;
     }
-
-    /* .step1_form{
-        background-color: var(--White);
-    } */
-
-    /* .btn-desktop {
-        display: none;
-    } */
-
-    /* .btn-mobile {
-        background-color: var(--White);
-        position: absolute;
-        bottom: -70px;
-        margin: 10px 0 0;
-        width: 100%;
-        height: 5vh;
-        padding: 20px;
-    } */
-/* 
-    .btn-mobile button {
-        margin-right: 20px;
-    } */
     
     #step1-section {
         background-color: var(--lightGray)
@@ -556,10 +534,6 @@ input[type="radio"]:checked {
         background-color: var(--White);
     }
 
-    /* .btn-mobile {
-        display: flex;
-    } */
-
     .btn-group {
         padding: 50px 0 10px;
         display: flex;
@@ -569,5 +543,170 @@ input[type="radio"]:checked {
         position: absolute;
         bottom: -170px;
         padding-top: 100px;
+    }
+
+    .step2 {
+        width: 80%;
+        height: 54vh;
+        margin: auto;
+        position: relative;
+        top: -95px;
+        background-color: var(--White);
+        padding-top: 40px;
+        border-radius: 10px;
+    }
+
+    .form-btn {
+        padding: 50px 0 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: -70px;
+        position: absolute;
+        bottom: -160px;
+        padding-top: 100px;
+        margin-left: -14px;
+    }
+    
+    .step3 {
+        width: 90%;
+        height: 54vh;
+        margin: auto;
+        position: relative;
+        top: -95px;
+        background-color: var(--White);
+        padding-top: 40px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px;
+        margin: 20px 0 20px 10px;
+        gap: 8%;
+        width: 75%;
+        border-radius: 8px;
+        border: 2px solid var(--Purplish_blue);
+        height: 3vh;
+    }
+
+    .step3-btn {
+        padding: 50px 0 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: -70px;
+        position: absolute;
+        bottom: -160px;
+        padding-top: 100px;
+        margin-left: unset;
+    }
+
+    .step4 {
+        width: 90%;
+        height: 54vh;
+        margin: auto;
+        position: relative;
+        top: -95px;
+        background-color: var(--White);
+        padding-top: 40px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .step4 .header {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .arcade-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .total {
+        width: 80%;
+        margin: auto;
+    }
+
+    .submit-btn {
+        padding: 50px 0 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: -70px;
+        position: absolute;
+        bottom: -160px;
+        padding-top: 100px;
+        margin-left: unset;
+    }
+
+    .confirm {
+        margin-right: unset;
+    }
+
+    .step5 {
+        width: 90%;
+        height: 50vh;
+        margin: auto;
+        position: relative;
+        top: -95px;
+        background-color: var(--White);
+        padding-top: 40px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .num {
+        padding: 35% 35%;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .container {
+        width: 55%;
+    }
+    .sidebar {
+        height: 35vh;
+        background-color: yellow;
+    }
+
+    .step1 {
+        height: 34vh;
+        background-color: aqua;
+    }
+
+    .step2 {
+        height: 34vh;
+    }
+
+    .step3 {
+        height: 34vh;
+    }
+
+    .step4 {
+        height: 34vh;
+    }
+    .arcade-box {
+        width: 85%;
+    }
+
+    .total {
+        width: 85%;
+        margin-top: 30px;
+    }
+
+    .submit-btn {
+        width: 85%;
+    }
+
+    .step5 {
+        height: 34vh;
     }
 }
