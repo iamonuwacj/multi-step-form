@@ -129,7 +129,6 @@ step2Next.addEventListener("click", (e) => {
     num3.style.backgroundColor = "hsl(206, 94%, 87%)"
     num3.style.color = "black"
     num2.style.color = "white"
-    alert(selectedContent, selectedValue)
     total += selectedValue
 })
 
@@ -273,7 +272,7 @@ confirm.addEventListener("click", (e) => {
     step5.style.display = "flex"
     num4.style.backgroundColor = "transparent"
 
-    alert(total)
+    // alert(total)
 })
 
 
