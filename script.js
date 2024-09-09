@@ -206,7 +206,7 @@ InputEvents()
 
 function selectFunction(){
     selected = "monthly"
-    radio_btn.addEventListener("click", (e) => {
+    radio_btn.addEventListener("click", () => {
         if (selectYearly.checked === true){
             monthly.style.display = "none"
             yearly.style.display = "flex"
