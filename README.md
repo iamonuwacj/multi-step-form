@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/iamonuwacj/multi-step-form)
-- Live Site URL: [Add live site URL here](https://multi-step-form-pi-one.vercel.app/)
+- Solution URL: [Source code](https://github.com/iamonuwacj/multi-step-form)
+- Live Site URL: [Multi-step-form](https://multi-step-form-pi-one.vercel.app/)
 
 ## My process
 
@@ -54,13 +54,8 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to style remove default style for radio buttons and how to style it. 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 .radios {
     background-color: var(--Marine_blue);
@@ -83,6 +78,7 @@ input[type="radio"]{
     transition: 0.7s ease;
 }
 ```
+Working with checkboxes can be tricky. I learned how to filter the checked and the unchecked checkboxes using a loop.
 ```js
 let checkedList = []
 for (let i = 0; i < check.length; i++){
