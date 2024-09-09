@@ -15,8 +15,6 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/iamonuwacj/multi-step-form)
+- Live Site URL: [Add live site URL here](https://multi-step-form-pi-one.vercel.app/)
 
 ## My process
 
